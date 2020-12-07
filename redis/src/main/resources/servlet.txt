@@ -1,0 +1,10 @@
+> org.springframework.boot.SpringApplication run ： 启动类
+  > org.springframework.boot.SpringApplication createApplicationContext() ： 创建一个ApplicationContext容器
+    > org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext
+  > org.springframework.context.support.AbstractApplicationContext refresh() ： 实现ConfigurableApplicationContext
+    > org.springframework.context.support.AbstractApplicationContext refresh() -> onRefresh() ： 刷新IOC容器（创建容器对象,并初始化容器,创建容器每一个组件)）
+     > org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext ： onRefresh() -> this.createWebServer()  抽象方法的实现(AbstractApplicationContext);创建web 服务
+     > getWebServerFactory() : 构建servlet容器工厂
+      > org.springframework.boot.web.servlet.server.ServletWebServerFactory 使用Servlet容器工厂获取嵌入式Servlet容器,具体使用哪一个容器工厂看配置环境依赖，该接口的实现类
+      > org.springframework.boot.web.servlet.ServletContextInitializer 接口
+       > org.springframework.boot.web.servlet.RegistrationBean 实现接口  void onStartup(ServletContext servletContext)
