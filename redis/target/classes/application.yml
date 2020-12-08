@@ -3,3 +3,25 @@ server:
   tomcat:
     accept-count: 9
     max-connections: 5
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/study?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: root
+mybatis-plus:
+  mapper-locations:
+    - classpath*:mappers/*.xml
+    - classpath:/META-INF/modeler-mybatis-mappings/*.xml
+  #  configuration:
+  #    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  configuration-properties:
+    blobType: BLOB
+    boolValue: TRUE
+    prefix:
+  global-config:
+    db-config:
+      logic-delete-value: 0
+      logic-not-delete-value: 1
+      id-type: auto
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
