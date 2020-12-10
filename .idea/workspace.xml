@@ -2,28 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0115939e-a970-47b4-83d2-78909ae84a8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/config/RedisMessageConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/controller/FilmController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/dao/FilmMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/entity/Film.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/message/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/redis/src/main/resources/mappers/FilmMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/service/AccountService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/target/classes/META-INF/Servlet.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/wzy/RedisApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/RedisApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/wzy/config/SpringUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/config/SpringUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/wzy/controller/FilmController.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/controller/FilmController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/wzy/lock/RedisLock1.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/lock/RedisLock1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/wzy/lock/RedisLockLua.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/lock/RedisLockLua.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/wzy/message/Receiver.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/message/Receiver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/src/main/resources/mappers/FilmMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/resources/mappers/FilmMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/target/classes/com/wzy/RedisApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis/target/classes/com/wzy/RedisApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/target/classes/com/wzy/config/SpringUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis/target/classes/com/wzy/config/SpringUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/redis/target/classes/com/wzy/lock/RedisLock1.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis/target/classes/com/wzy/lock/RedisLock1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/target/classes/com/wzy/lock/RedisLockLua.class" beforeDir="false" afterPath="$PROJECT_DIR$/redis/target/classes/com/wzy/lock/RedisLockLua.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/target/classes/lock.lua" beforeDir="false" afterPath="$PROJECT_DIR$/redis/target/classes/lock.lua" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro/target/classes/META-INF/shiro.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/springboot_practice.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/Application.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/config/ServletConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/config/ServletExtend.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/java/collection/MapSet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/request/PostController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="ComposerSettings">
     <execution>
@@ -44,6 +49,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JRebelWorkspace">
+    <option name="jrebelEnabledAutocompile" value="true" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -97,6 +105,8 @@
       <recent name="D:\project\springboot_practice\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wzy.service" />
+      <recent name="com.wzy" />
       <recent name="com.config" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -107,6 +117,20 @@
   <component name="RunManager" selected="Spring Boot.RedisApp">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Account" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wzy.Account" />
+      <module name="redis" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -200,10 +224,12 @@
       <item itemvalue="Spring Boot.ShiroApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.RedisApp" />
+      <item itemvalue="Application.Account" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.RedisApp" />
+        <item itemvalue="Application.Account" />
         <item itemvalue="Spring Boot.Application" />
         <item itemvalue="Spring Boot.ShiroApplication" />
         <item itemvalue="Application.B" />
@@ -226,8 +252,16 @@
       <workItem from="1603441831171" duration="6680000" />
       <workItem from="1603694390418" duration="26333000" />
       <workItem from="1603791916225" duration="7719000" />
-      <workItem from="1607301274454" duration="22368000" />
+      <workItem from="1607301274454" duration="41318000" />
     </task>
+    <task id="LOCAL-00001" summary="redis分布式锁加消息队列">
+      <created>1607420636119</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607420636119</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +277,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="redis分布式锁加消息队列" />
+    <option name="LAST_COMMIT_MESSAGE" value="redis分布式锁加消息队列" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1603792617015">
@@ -271,6 +309,10 @@
     </state>
     <state x="715" y="223" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603768837139" />
     <state x="715" y="223" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1603464693007" />
+    <state x="560" y="89" key="CommitChangelistDialog2" timestamp="1607420635094">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="560" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420635094" />
     <state width="522" height="466" key="DebuggerActiveHint" timestamp="1603769013821">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -281,66 +323,66 @@
     </state>
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602644742581" />
     <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1603718480616" />
-    <state width="1876" height="178" key="GridCell.Tab.0.bottom" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="156" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603979946802" />
-    <state width="1876" height="178" key="GridCell.Tab.0.center" timestamp="1607420594131">
+    <state width="1876" height="334" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607432773137" />
+    <state width="1876" height="334" key="GridCell.Tab.0.center" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594131" />
-    <state width="1876" height="156" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603979946802" />
-    <state width="1876" height="178" key="GridCell.Tab.0.left" timestamp="1607420594131">
+    <state width="1876" height="334" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607432773136" />
+    <state width="1876" height="334" key="GridCell.Tab.0.left" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594131" />
-    <state width="1876" height="156" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603979946802" />
-    <state width="1876" height="178" key="GridCell.Tab.0.right" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607432773136" />
+    <state width="1876" height="334" key="GridCell.Tab.0.right" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="156" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603979946802" />
-    <state width="1876" height="178" key="GridCell.Tab.1.bottom" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607432773137" />
+    <state width="1876" height="334" key="GridCell.Tab.1.bottom" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="156" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603979946803" />
-    <state width="1876" height="178" key="GridCell.Tab.1.center" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772998" />
+    <state width="1876" height="334" key="GridCell.Tab.1.center" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="156" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603979946802" />
-    <state width="1876" height="178" key="GridCell.Tab.1.left" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772998" />
+    <state width="1876" height="334" key="GridCell.Tab.1.left" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="156" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603979946802" />
-    <state width="1876" height="178" key="GridCell.Tab.1.right" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772998" />
+    <state width="1876" height="334" key="GridCell.Tab.1.right" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="156" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603979946803" />
-    <state width="1876" height="178" key="GridCell.Tab.2.bottom" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772998" />
+    <state width="1876" height="334" key="GridCell.Tab.2.bottom" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="337" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1603464662590" />
-    <state width="1876" height="178" key="GridCell.Tab.2.center" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772999" />
+    <state width="1876" height="334" key="GridCell.Tab.2.center" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="337" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1603464662590" />
-    <state width="1876" height="178" key="GridCell.Tab.2.left" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772999" />
+    <state width="1876" height="334" key="GridCell.Tab.2.left" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="337" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1603464662590" />
-    <state width="1876" height="178" key="GridCell.Tab.2.right" timestamp="1607420594132">
+    <state width="1876" height="334" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772999" />
+    <state width="1876" height="334" key="GridCell.Tab.2.right" timestamp="1607589104272">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1876" height="178" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420594132" />
-    <state width="1876" height="337" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1603464662590" />
+    <state width="1876" height="334" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607589104272" />
+    <state width="1876" height="249" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772999" />
     <state x="600" y="217" width="727" height="605" key="NewModule_or_Project.wizard" timestamp="1603796860820">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -354,6 +396,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="588" height="519" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603786581325" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1607420638031">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607420638031" />
     <state x="465" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607316036069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

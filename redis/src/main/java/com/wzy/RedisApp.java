@@ -30,8 +30,7 @@ public class RedisApp
     @RequestMapping("/lock")
     public String lock(){
         RedisLockLua redisLockLua = new RedisLockLua();
-        String today = redisLockLua.tryLock("today", "60");
-        if(Objects.nonNull(today)){
+        if( redisLockLua.tryLock("today", "60")){
             log.debug("获取所成功");
         }
         return "success";
@@ -40,7 +39,7 @@ public class RedisApp
     @RequestMapping("/unlock")
     public String unlock(){
         RedisLockLua redisLockLua = new RedisLockLua();
-        redisLockLua.unLock("today", "60");
+        redisLockLua.unLock("today");
         log.debug("获取所成功");
         System.out.println(String.format("%s 解锁所成功",Thread.currentThread().getId()));
         return "success";

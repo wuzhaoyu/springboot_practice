@@ -36,6 +36,8 @@ public class RedisLockLua {
     private static final DefaultRedisScript<Long> LOCKREDISSCRIPT ;
     private static final DefaultRedisScript UNLOCKREDISSCRIPT ;
 
+    // 获取锁之前的超时时间(获取锁的等待重试时间)
+    private static final long acquireTimeout = 990000;
     static {
 
         // 获取锁
@@ -53,24 +55,31 @@ public class RedisLockLua {
      * @param releaseTime 超时时间(单位:秒)
      * @return key 解锁标识
      */
-    public  String tryLock(String lockName,String releaseTime){
+    public  boolean tryLock(String lockName,String releaseTime){
         // 加入UUID 防止其他JVM中线程ID重复
         String key =String.valueOf(Thread.currentThread().getName());
 
-        Long result = redisTemplate.execute(LOCKREDISSCRIPT, Collections.singletonList(lockName),key,releaseTime);
-        if(result !=null && result.intValue() == 1){
-            return key;
-        }else {
-            return null;
+        long endTime = System.currentTimeMillis() + acquireTimeout;
+        for(;;){
+            Long result = redisTemplate.execute(LOCKREDISSCRIPT, Collections.singletonList(lockName),key,releaseTime);
+            if(result !=null && result.intValue() == 1){
+                System.out.println(String.format("%s线程获取成功",Thread.currentThread().getName()));
+                return true;
+            }
+            //否则循环等待，在timeout时间内仍未获取到锁，则获取失败
+            if(System.currentTimeMillis() > endTime){
+                return false;
+            }
         }
     }
 
-    public  void unLock(String lockName,String key){
+    public  void unLock(String lockName){
         // 执行脚本
         redisTemplate.execute(
                 UNLOCKREDISSCRIPT,
                 Collections.singletonList(lockName),
                 Thread.currentThread().getName(), null);
+        System.out.println("释放锁..." + Thread.currentThread().getName() );
     }
 
 

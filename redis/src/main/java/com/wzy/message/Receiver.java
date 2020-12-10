@@ -22,6 +22,8 @@ public class Receiver {
     @Autowired
     private FilmMapper filmMapper;
 
+
+
     /**
      * 接受者
      * @param message

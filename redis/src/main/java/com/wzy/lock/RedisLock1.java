@@ -24,16 +24,16 @@ public class RedisLock1 {
 
     private static final String LOCK_KEY = "lock_key";
     // 获取锁之前的超时时间(获取锁的等待重试时间)
-    private static final long acquireTimeout = 5000;
-    // 超时时间
-    private static final int TIMEOUT = 10000;
+    private static final long acquireTimeout = 990000;
+    // 过期时间
+    private static final int TIMEOUT = 500;
 
     private static final String SUCCESS = "OK";
 
-    public static boolean lock(String requestId){
+    public  boolean lock(String requestId){
         // 设置条件
         SetParams set = new SetParams();
-        set.nx().ex(TIMEOUT);
+        set.nx().px(TIMEOUT);
         // 设置超时时间
         Jedis jedis = null;
         long endTime = System.currentTimeMillis() + acquireTimeout;
@@ -41,10 +41,14 @@ public class RedisLock1 {
         try {
             jedis = pool.getResource();
             jedis.select(7);
-            while(System.currentTimeMillis() < endTime){
+            for(;;){
                 if(SUCCESS.equals(jedis.set(LOCK_KEY,requestId,set))){
                     System.out.println(String.format("%s线程获取成功",Thread.currentThread().getName()));
                     return true;
+                }
+                //否则循环等待，在timeout时间内仍未获取到锁，则获取失败
+                if(System.currentTimeMillis() > endTime){
+                      return false;
                 }
             }
         }catch (Exception e) {
@@ -56,7 +60,7 @@ public class RedisLock1 {
 
     }
 
-    public static void unLock(String requestId){
+    public  void unLock(String requestId){
         Jedis jedis = null;
         try {
             jedis = pool.getResource();
@@ -74,36 +78,6 @@ public class RedisLock1 {
 
     public static void main(String[] args) throws InterruptedException {
 
-        new Thread(()->{
-            try {
-                if(RedisLock1.lock("today")){
-                    System.out.println("今天 获取成功");
-                }
-            }finally {
-                System.out.println("今天 解锁");
-                RedisLock1.unLock("today");
-            }
-        },"今天").start();
-        new Thread(()->{
-            try {
-                if(RedisLock1.lock("tomorrow")){
-                    System.out.println("明天 获取成功");
-                }
-            }finally {
-                System.out.println("明天 解锁");
-                RedisLock1.unLock("tomorrow");
-            }
-        },"明天").start();
-        new Thread(()->{
 
-            try {
-                if(RedisLock1.lock("after_tomorrow")){
-                    System.out.println("后天 获取成功");
-                }
-            }finally {
-                System.out.println("后天 解锁");
-                RedisLock1.unLock("after_tomorrow");
-            }
-        },"后天").start();
     }
 }
