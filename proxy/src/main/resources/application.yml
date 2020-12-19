@@ -1,0 +1,5 @@
+server:
+  port: 8086
+  tomcat:
+    accept-count: 9
+    max-connections: 5

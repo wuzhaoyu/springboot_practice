@@ -1,0 +1,16 @@
+server:
+  port: 8085
+  tomcat:
+    accept-count: 9
+    max-connections: 5
+spring:
+  session:
+    redis:
+      namespace: text::session
+
+  redis:
+    database: 1
+  datasource:
+    url: jdbc:mysql://localhost:3306/study?useUnicode=true&characterEncoding=utf8&autoReconnect=true&failOverReadOnly=false&useSSL=false&serverTimezone=Asia/Shanghai&allowMultiQueries=true
+    username: root
+    password: root

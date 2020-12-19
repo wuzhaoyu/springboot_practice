@@ -8,14 +8,24 @@
         <outputRelativeToContentRoot value="true" />
         <module name="redis" />
         <module name="shiro" />
+        <module name="Session" />
+        <module name="proxy" />
         <module name="Servlet" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="servlet" target="1.8" />
+      <module name="session" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Servlet" options="-parameters" />
+      <module name="Session" options="-parameters" />
+      <module name="proxy" options="-parameters" />
       <module name="redis" options="-parameters" />
+      <module name="servlet" options="-parameters" />
+      <module name="session" options="-parameters" />
       <module name="shiro" options="-parameters" />
       <module name="springboot_practice" options="-parameters" />
     </option>
