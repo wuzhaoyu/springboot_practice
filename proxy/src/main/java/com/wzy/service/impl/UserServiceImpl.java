@@ -1,15 +1,15 @@
-package wzy.service.impl;
+package com.wzy.service.impl;
 
 import org.springframework.stereotype.Service;
-import wzy.proxy.User;
-import wzy.service.UserService;
+import com.wzy.proxy.User;
+import com.wzy.service.UserService;
 
 /**
  * 类功能说明:
  * 类修改者	创建日期2020/12/19
  * 修改说明
  *
- * @author wzy
+ * @author com.wzy
  * @version V1.0
  * @description 说明：
  **/

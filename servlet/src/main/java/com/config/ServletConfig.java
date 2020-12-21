@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
  * 类修改者	创建日期2020/9/18
  * 修改说明
  *
- * @author wzy
+ * @author com.wzy
  * @version V1.0
  * @description 说明：
  **/

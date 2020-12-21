@@ -16,7 +16,7 @@ import java.util.Set;
  * 类修改者	创建日期2020/10/23
  * 修改说明
  *
- * @author wzy
+ * @author com.wzy
  * @version V1.0
  * @description 说明：
  **/
@@ -35,11 +35,11 @@ public class LoginServiceImpl implements LoginService {
         permissionsSet.add(permissions1);
         permissionsSet.add(permissions2);
 
-        // 用户 wzy 角色：admin 权限： query add
+        // 用户 com.wzy 角色：admin 权限： query add
         Role role = new Role("1", "admin", permissionsSet);
         Set<Role> roleSet = new HashSet<>();
         roleSet.add(role);
-        User user = new User("1", "wzy", "123456", roleSet);
+        User user = new User("1", "com.wzy", "123456", roleSet);
         Map<String, User> map = new HashMap<>();
         map.put(user.getUserName(), user);
 

@@ -14,7 +14,7 @@ import java.util.Set;
  * 类修改者	创建日期2020/10/27
  * 修改说明
  *
- * @author wzy
+ * @author com.wzy
  * @version V1.0
  * @description 说明：
  **/
@@ -25,6 +25,6 @@ public class ServletContextConfig implements ServletContextInitializer {
     public void onStartup(ServletContext servletContext) throws ServletException {
         ServletRegistration init = servletContext.addServlet("demoServlet",ServletDemo.class);
         init.addMapping("/demoServlet");
-        init.setInitParameter("name","wzy");
+        init.setInitParameter("name","com.wzy");
     }
 }

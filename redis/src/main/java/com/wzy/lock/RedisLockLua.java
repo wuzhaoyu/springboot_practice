@@ -26,7 +26,7 @@ import java.util.Collections;
  *       1. 判断是否存在重入 ，也就是判断value值 减一后是否为 0
  *         - 1） 是 则删除 lock_key
  *         - 2) 否 则在重入的计数的value上减一
- * @author wzy
+ * @author com.wzy
  * @version V1.0
  * @description 说明：
  **/

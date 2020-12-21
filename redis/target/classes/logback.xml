@@ -42,7 +42,7 @@
     <!-- 标准日志 -->
     <logger name="org.springframework" level="INFO"/>
     <!-- 输出此包下的debug级别 -->
-    <logger name="com.wzy" level="DEBUG" />
+    <logger name="com.com.wzy" level="DEBUG" />
 
     <!-- 日志输出级别 -->
     <root level="INFO">

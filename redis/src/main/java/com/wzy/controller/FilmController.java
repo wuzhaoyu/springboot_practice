@@ -18,7 +18,7 @@ import java.util.concurrent.*;
  * 类修改者	创建日期2020/12/8
  * 修改说明
  *
- * @author wzy
+ * @author com.wzy
  * @version V1.0
  * @description 说明：
  **/
@@ -74,7 +74,7 @@ public class FilmController {
         }*/
         /*AccountService accountRedisLock = new AccountService.AccountRedisLock(10000);
         AccountService.demo(accountRedisLock);*/
-        template.opsForValue().set(("wzy"+ STOCK++),"1");
+        template.opsForValue().set(("com.wzy"+ STOCK++),"1");
 
        return "success";
     }

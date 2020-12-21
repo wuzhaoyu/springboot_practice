@@ -3,3 +3,6 @@ server:
   tomcat:
     accept-count: 9
     max-connections: 5
+spring:
+  aop:
+    proxy-target-class:

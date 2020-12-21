@@ -1,18 +1,18 @@
-package wzy.proxy;
+package com.wzy.proxy;
 
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
-import wzy.config.UserConfig;
-import wzy.service.UserService;
+import com.wzy.config.UserConfig;
+import com.wzy.service.UserService;
 
 /**
  * 类功能说明:
  * 类修改者	创建日期2020/12/18
  * 修改说明
  *
- * @author wzy
+ * @author com.wzy
  * @version V1.0
  * @description 说明：
  **/

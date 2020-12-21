@@ -19,7 +19,7 @@ import java.util.Objects;
 @SpringBootApplication
 @Controller
 @Slf4j
-@MapperScan({"com.wzy.dao"})
+@MapperScan({"com.com.wzy.dao"})
 public class RedisApp
 {
 
