@@ -10,6 +10,8 @@
         <module>redis</module>
         <module>Session</module>
         <module>proxy</module>
+        <module>dubbo</module>
+        <module>com.wzy.service-api</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -17,7 +19,7 @@
         <version>2.3.3.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.com.wzy</groupId>
+    <groupId>com.wzy</groupId>
     <artifactId>springboot_practice</artifactId>
     <version>1.0-SNAPSHOT</version>
 

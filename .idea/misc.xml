@@ -11,6 +11,10 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/servlet/pom.xml" />
         <option value="$PROJECT_DIR$/session/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/service-provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/service-consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/service-api/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbo/service-api/pom.xml" />
       </list>
     </option>
   </component>

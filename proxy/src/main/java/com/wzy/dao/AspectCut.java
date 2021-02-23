@@ -1,10 +1,8 @@
 package com.wzy.dao;
 
-import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
 import org.aspectj.lang.annotation.Pointcut;
 import org.springframework.stereotype.Component;
 
@@ -13,7 +11,7 @@ import org.springframework.stereotype.Component;
  * 类修改者	创建日期2020/12/20
  * 修改说明
  *
- * @author wzy
+ * @author com.com.wzy
  * @version V1.0
  * @description 说明：
  **/

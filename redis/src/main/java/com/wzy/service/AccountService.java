@@ -1,8 +1,6 @@
 package com.wzy.service;
 
-import com.wzy.lock.RedisLock1;
 import com.wzy.lock.RedisLockLua;
-import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,7 +11,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * 类修改者	创建日期2020/5/23
  * 修改说明
  *
- * @author com.wzy
+ * @author com.com.com.wzy
  * @version V1.0
  **/
 public interface AccountService {

@@ -1,9 +1,9 @@
-package com.service.impl;
+package com.wzy.service.impl;
 
 import com.entity.Permissions;
 import com.entity.Role;
 import com.entity.User;
-import com.service.LoginService;
+import com.wzy.service.LoginService;
 import org.springframework.stereotype.Service;
 
 import java.util.HashMap;
@@ -16,7 +16,7 @@ import java.util.Set;
  * 类修改者	创建日期2020/10/23
  * 修改说明
  *
- * @author com.wzy
+ * @author com.com.com.wzy
  * @version V1.0
  * @description 说明：
  **/
@@ -35,11 +35,11 @@ public class LoginServiceImpl implements LoginService {
         permissionsSet.add(permissions1);
         permissionsSet.add(permissions2);
 
-        // 用户 com.wzy 角色：admin 权限： query add
+        // 用户 com.com.com.wzy 角色：admin 权限： query add
         Role role = new Role("1", "admin", permissionsSet);
         Set<Role> roleSet = new HashSet<>();
         roleSet.add(role);
-        User user = new User("1", "com.wzy", "123456", roleSet);
+        User user = new User("1", "com.com.com.wzy", "123456", roleSet);
         Map<String, User> map = new HashMap<>();
         map.put(user.getUserName(), user);
 

@@ -3,7 +3,7 @@ package com.shiro;
 import com.entity.Permissions;
 import com.entity.Role;
 import com.entity.User;
-import com.service.LoginService;
+import com.wzy.service.LoginService;
 import org.apache.shiro.authc.AuthenticationException;
 import org.apache.shiro.authc.AuthenticationInfo;
 import org.apache.shiro.authc.AuthenticationToken;
@@ -22,7 +22,7 @@ import java.util.Set;
  * 类修改者	创建日期2020/10/23
  * 修改说明
  *
- * @author com.wzy
+ * @author com.com.com.wzy
  * @version V1.0
  * @description 说明：
  **/

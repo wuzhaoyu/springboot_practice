@@ -7,9 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Service;
 
-import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.TimeUnit;
-
 /**
  * 类功能说明:
  *   沿用场景一的解决方案，为解决其缺陷，添加队列，凡是遇到写请求，
@@ -21,7 +18,7 @@ import java.util.concurrent.TimeUnit;
  * 类修改者	创建日期2020/12/14
  * 修改说明
  *
- * @author com.wzy
+ * @author com.com.com.wzy
  * @version V1.0
  * @description 说明：
  **/

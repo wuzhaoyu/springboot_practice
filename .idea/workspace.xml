@@ -2,22 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0115939e-a970-47b4-83d2-78909ae84a8f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/AspectCut.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/Dao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/DaoImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/dubbo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-api/src/main/java/com/wzy/bean/UserVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-api/src/main/java/com/wzy/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-consumer/src/main/java/com/ConsumerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-consumer/src/main/java/com/wzy/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-provider/src/main/java/com/ProviderApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-provider/src/main/java/com/wzy/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dubbo/service-provider/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/wzy/config/UserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/config/UserConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/wzy/proxy/BaseVerifierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/BaseVerifierImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/wzy/proxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/wzy/proxy/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/wzy/proxy/UserIntroducerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/UserIntroducerAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/wzy/proxy/Verifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/Verifier.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/wzy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/wzy/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/proxy/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/constructor/StudentA.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/constructor/StudentA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/constructor/StudentB.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/constructor/StudentB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/constructor/StudentC.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/constructor/StudentC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/field/StudentA.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/field/StudentA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/field/StudentB.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/field/StudentB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/field/StudentC.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/circular/field/StudentC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/config/UserConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/config/UserConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/AspectCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/AspectCut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/Dao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/DaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/DaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/dao/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/BaseVerifierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/BaseVerifierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/UserIntroducerAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/UserIntroducerAspect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/Verifier.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/proxy/Verifier.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/java/com/wzy/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/redis/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/wzy/RedisApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/RedisApp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/redis/src/main/java/com/wzy/config/RedisMessageConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/redis/src/main/java/com/wzy/config/RedisMessageConfig.java" afterDir="false" />
@@ -58,11 +78,13 @@
       <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/entity/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/entity/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/exception/MyExceptionHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/exception/MyExceptionHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/service/LoginService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/service/impl/LoginServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/service/LoginService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/wzy/service/LoginService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/service/impl/LoginServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/wzy/service/impl/LoginServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/shiro/CustomRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/shiro/CustomRealm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/shiro/src/main/java/com/shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/src/main/java/com/shiro/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shiro/target/classes/com/service/impl/LoginServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/target/classes/com/service/impl/LoginServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro/target/classes/com/service/LoginService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro/target/classes/com/service/impl/LoginServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shiro/target/classes/com/shiro/CustomRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/shiro/target/classes/com/shiro/CustomRealm.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/A.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/B.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/proxy/BaseVerifierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/proxy/BaseVerifierImpl.java" afterDir="false" />
@@ -93,6 +115,7 @@
       <list>
         <option value="AnnotationType" />
         <option value="Interface" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -134,14 +157,14 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/proxy/src/main/java/wzy" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dubbo/service-api" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
@@ -150,26 +173,31 @@
     <selection>jr</selection>
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+      <recent name="" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\springboot_practice\dubbo\service-consumer\src\main\resources" />
+      <recent name="D:\project\springboot_practice\dubbo\service-provider\src\main\java\com" />
+      <recent name="D:\project\springboot_practice\dubbo\src\main\java" />
+      <recent name="D:\project\springboot_practice\proxy\src\main\java\com\wzy\circular\field" />
       <recent name="D:\project\springboot_practice\proxy\src\main\java\wzy" />
-      <recent name="D:\project\springboot_practice\proxy\src\main\java\wzy\config" />
-      <recent name="D:\project\springboot_practice\proxy\src\main\resources" />
-      <recent name="D:\project\springboot_practice\proxy\src\main\java" />
-      <recent name="D:\project\springboot_practice\redis\src\main\java\com\wzy" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wzy" />
+      <recent name="wzy" />
+      <recent name="com" />
       <recent name="com.wzy.dao" />
       <recent name="com.wzy.controller" />
-      <recent name="com.wzy" />
-      <recent name="" />
-      <recent name="com.wzy.service" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\springboot_practice\dubbo" />
       <recent name="D:\project\springboot_practice\redis\src\main\resources" />
       <recent name="D:\project\springboot_practice\Servlet\src\main\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Test.addTest (1)">
+  <component name="RunManager" selected="Spring Boot.ConsumerApplication">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -210,23 +238,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test.addTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proxy" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wzy.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wzy.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.wzy.dao.Test" />
-      <option name="METHOD_NAME" value="addTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Test.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proxy" />
       <extension name="coverage">
@@ -244,6 +255,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Test.addTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wzy.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wzy.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wzy.dao.Test" />
+      <option name="METHOD_NAME" value="addTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
@@ -254,6 +282,20 @@
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="Servlet" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConsumerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-consumer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ConsumerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProviderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-provider" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ProviderApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,7 +321,7 @@
       </method>
     </configuration>
     <configuration name="SessionApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" singleton="false">
-      <module name="session" />
+      <module name="Session" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wzy.SessionApp" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
@@ -315,16 +357,16 @@
       <item itemvalue="Application.DynamicProxyHandler" />
       <item itemvalue="Application.Test" />
       <item itemvalue="JUnit.Test.addTest" />
-      <item itemvalue="JUnit.Test.addTest (1)" />
       <item itemvalue="Spring Boot.SessionApp" />
       <item itemvalue="Spring Boot.ShiroApplication" />
       <item itemvalue="Spring Boot.Application" />
       <item itemvalue="Spring Boot.ProxyApp" />
+      <item itemvalue="Spring Boot.ProviderApplication" />
+      <item itemvalue="Spring Boot.ConsumerApplication" />
       <item itemvalue="Spring Boot.RedisApp" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Test.addTest (1)" />
         <item itemvalue="JUnit.Test.addTest" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Spring Boot.RedisApp" />
@@ -354,7 +396,9 @@
       <workItem from="1608176118561" duration="3880000" />
       <workItem from="1608296587900" duration="8185000" />
       <workItem from="1608451440022" duration="6844000" />
-      <workItem from="1608534567565" duration="4496000" />
+      <workItem from="1608534567565" duration="10565000" />
+      <workItem from="1611299932943" duration="801000" />
+      <workItem from="1612834313518" duration="13112000" />
     </task>
     <task id="LOCAL-00001" summary="redis分布式锁加消息队列">
       <created>1607420636119</created>
@@ -377,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1608347536575</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="proxy AOP">
+      <created>1608547763373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1608547763373</updated>
+    </task>
+    <task id="LOCAL-00005" summary="循环依赖">
+      <created>1608601293133</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1608601293133</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -400,145 +458,157 @@
     <MESSAGE value="redis分布式锁加消息队列" />
     <MESSAGE value="redis分布式锁" />
     <MESSAGE value="proxy测试" />
-    <option name="LAST_COMMIT_MESSAGE" value="proxy测试" />
+    <MESSAGE value="proxy AOP" />
+    <MESSAGE value="循环依赖" />
+    <option name="LAST_COMMIT_MESSAGE" value="循环依赖" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607850784718">
+    <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1612838143213">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" width="1174" height="690" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607850784718" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1608457308490">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612838143213" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser" timestamp="1612835159137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608457308490" />
-    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1608296835903" />
+    <state x="765" y="229" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1612835159137" />
+    <state x="690" y="300" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1612838040944">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="300" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612838040944" />
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1607301440658">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="580" y="198" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607301440658" />
-    <state x="621" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1608457280480">
+    <state x="621" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1612836934091">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="621" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608457280480" />
-    <state x="621" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1603450677906" />
+    <state x="621" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612836934091" />
+    <state x="713" y="378" width="524" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1612838047651">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="378" width="524" height="293" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1920.1040@0.0.1920.1040" timestamp="1612838047651" />
+    <state x="713" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1612835456392">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="713" y="399" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1612835456392" />
     <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1607302294092">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="714" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607302294092" />
-    <state x="715" y="223" key="#xdebugger.evaluate" timestamp="1603768837139">
+    <state x="715" y="223" key="#xdebugger.evaluate" timestamp="1608550849893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="715" y="223" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603768837139" />
-    <state x="715" y="223" key="#xdebugger.evaluate/0.0.1920.1040@0.0.1920.1040" timestamp="1603464693007" />
-    <state x="560" y="89" key="CommitChangelistDialog2" timestamp="1608347535439">
+    <state x="715" y="223" key="#xdebugger.evaluate/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608550849893" />
+    <state x="560" y="89" key="CommitChangelistDialog2" timestamp="1608601292334">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="560" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608347535439" />
-    <state width="522" height="466" key="DebuggerActiveHint" timestamp="1603769013821">
+    <state x="560" y="89" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601292334" />
+    <state width="450" height="466" key="DebuggerActiveHint" timestamp="1612855289698">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="522" height="466" key="DebuggerActiveHint/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603769013821" />
-    <state width="522" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1603464722548" />
-    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1608296643760">
+    <state width="450" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1612855289698" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1612836906137">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1602644742581" />
-    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1608296643760" />
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom" timestamp="1608516583025">
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1612836906137" />
+    <state width="1877" height="698" key="GridCell.Tab.0.bottom" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608516583025" />
-    <state width="1876" height="249" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607432773137" />
-    <state width="1877" height="290" key="GridCell.Tab.0.center" timestamp="1608516583025">
+    <state width="1877" height="425" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
+    <state width="1877" height="698" key="GridCell.Tab.0.center" timestamp="1612863395379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608516583025" />
-    <state width="1876" height="249" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607432773136" />
-    <state width="1877" height="290" key="GridCell.Tab.0.left" timestamp="1608516583025">
+    <state width="1877" height="425" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395379" />
+    <state width="1877" height="698" key="GridCell.Tab.0.left" timestamp="1612863395379">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608516583025" />
-    <state width="1876" height="249" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607432773136" />
-    <state width="1877" height="290" key="GridCell.Tab.0.right" timestamp="1608516583025">
+    <state width="1877" height="425" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395379" />
+    <state width="1877" height="698" key="GridCell.Tab.0.right" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608516583025" />
-    <state width="1876" height="249" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607432773137" />
-    <state width="1877" height="290" key="GridCell.Tab.1.bottom" timestamp="1608516583026">
+    <state width="1877" height="425" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395379" />
+    <state width="1877" height="698" key="GridCell.Tab.1.bottom" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608516583026" />
-    <state width="1876" height="249" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772998" />
-    <state width="1877" height="290" key="GridCell.Tab.1.center" timestamp="1608516583025">
+    <state width="1877" height="425" key="GridCell.Tab.1.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
+    <state width="1877" height="698" key="GridCell.Tab.1.center" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608516583025" />
-    <state width="1876" height="249" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772998" />
-    <state width="1877" height="290" key="GridCell.Tab.1.left" timestamp="1608516583025">
+    <state width="1877" height="425" key="GridCell.Tab.1.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
+    <state width="1877" height="698" key="GridCell.Tab.1.left" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608516583025" />
-    <state width="1876" height="249" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772998" />
-    <state width="1877" height="290" key="GridCell.Tab.1.right" timestamp="1608516583025">
+    <state width="1877" height="425" key="GridCell.Tab.1.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
+    <state width="1877" height="698" key="GridCell.Tab.1.right" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="290" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608516583025" />
-    <state width="1876" height="249" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772998" />
-    <state width="1877" height="393" key="GridCell.Tab.2.bottom" timestamp="1608347978540">
+    <state width="1877" height="425" key="GridCell.Tab.1.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
+    <state width="1877" height="698" key="GridCell.Tab.2.bottom" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608347978540" />
-    <state width="1876" height="249" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772999" />
-    <state width="1877" height="393" key="GridCell.Tab.2.center" timestamp="1608347978540">
+    <state width="1877" height="425" key="GridCell.Tab.2.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
+    <state width="1877" height="698" key="GridCell.Tab.2.center" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608347978540" />
-    <state width="1876" height="249" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772999" />
-    <state width="1877" height="393" key="GridCell.Tab.2.left" timestamp="1608347978540">
+    <state width="1877" height="425" key="GridCell.Tab.2.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
+    <state width="1877" height="698" key="GridCell.Tab.2.left" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608347978540" />
-    <state width="1876" height="249" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772999" />
-    <state width="1877" height="393" key="GridCell.Tab.2.right" timestamp="1608347978540">
+    <state width="1877" height="425" key="GridCell.Tab.2.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
+    <state width="1877" height="698" key="GridCell.Tab.2.right" timestamp="1612863395380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608347978540" />
-    <state width="1876" height="249" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1607432772999" />
+    <state width="1877" height="425" key="GridCell.Tab.2.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601303779" />
+    <state width="1877" height="698" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612863395380" />
     <state x="490" y="175" key="Maven.ArtifactSearchDialog" timestamp="1608345724854">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="490" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608345724854" />
-    <state x="600" y="217" width="727" height="605" key="NewModule_or_Project.wizard" timestamp="1608296644940">
+    <state x="600" y="217" width="727" height="605" key="NewModule_or_Project.wizard" timestamp="1612836907520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="600" y="217" width="727" height="605" key="NewModule_or_Project.wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603796860820" />
-    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1608296644940" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1608296656965">
+    <state x="600" y="217" key="NewModule_or_Project.wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1612836907520" />
+    <state x="461" y="162" key="SettingsEditor" timestamp="1612839434850">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="655" y="85" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608196163981" />
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1608296656965" />
-    <state width="588" height="519" key="SwitcherDM" timestamp="1603786581325">
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1612839434850" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608601294625">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="588" height="519" key="SwitcherDM/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603786581325" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1608347538246">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608601294625" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup" timestamp="1612855289691">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608347538246" />
+    <state width="968" height="528" key="XDebugger.FullValuePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1612855289691" />
     <state x="465" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1607316036069">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="465" y="256" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1607316036069" />
-    <state x="636" y="253" width="1037" height="534" key="find.popup" timestamp="1608541324271">
+    <state x="636" y="253" width="652" height="534" key="find.popup" timestamp="1611300111345">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="636" y="253" width="1037" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608541324271" />
-    <state x="636" y="253" width="647" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603715525804" />
-    <state x="334" y="214" key="new project wizard" timestamp="1608345194557">
+    <state x="636" y="253" width="1038" height="534" key="find.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608551799775" />
+    <state x="636" y="253" width="652" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1611300111345" />
+    <state x="334" y="214" key="new project wizard" timestamp="1612836795994">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="214" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608345194557" />
+    <state x="334" y="214" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1612836795994" />
     <state x="616" y="240" key="run.anything.popup" timestamp="1608541172346">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -547,11 +617,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="554" y="179" key="scopes/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608453003384" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608453043666">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1608550383990">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608453043666" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1603717880227" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1608550383990" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -605,7 +674,7 @@
     </breakpoint-manager>
   </component>
   <component name="ZooKeeperConfig">
-    <option name="host" value="192.168.98.4" />
+    <option name="host" value="127.0.01" />
     <option name="port" value="2181" />
     <option name="charset" value="UTF-8" />
     <option name="whitePaths" value="/" />

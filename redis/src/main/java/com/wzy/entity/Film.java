@@ -1,7 +1,6 @@
 package com.wzy.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -12,7 +11,7 @@ import java.io.Serializable;
  * 类修改者	创建日期2020/12/8
  * 修改说明
  *
- * @author com.wzy
+ * @author com.com.com.wzy
  * @version V1.0
  * @description 说明：
  **/

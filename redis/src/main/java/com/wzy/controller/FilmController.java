@@ -1,24 +1,19 @@
 package com.wzy.controller;
 
 import com.wzy.dao.FilmMapper;
-import com.wzy.entity.Film;
 import com.wzy.lock.RedisLockLua;
-import com.wzy.service.AccountService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import java.util.Objects;
-import java.util.concurrent.*;
-
 /**
  * 类功能说明:
  * 类修改者	创建日期2020/12/8
  * 修改说明
  *
- * @author com.wzy
+ * @author com.com.com.wzy
  * @version V1.0
  * @description 说明：
  **/
@@ -74,7 +69,7 @@ public class FilmController {
         }*/
         /*AccountService accountRedisLock = new AccountService.AccountRedisLock(10000);
         AccountService.demo(accountRedisLock);*/
-        template.opsForValue().set(("com.wzy"+ STOCK++),"1");
+        template.opsForValue().set(("com.com.com.wzy"+ STOCK++),"1");
 
        return "success";
     }

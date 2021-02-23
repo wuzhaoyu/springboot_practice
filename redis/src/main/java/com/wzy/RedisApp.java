@@ -3,14 +3,10 @@ package com.wzy;
 import com.wzy.lock.RedisLockLua;
 import lombok.extern.slf4j.Slf4j;
 import org.mybatis.spring.annotation.MapperScan;
-import org.mybatis.spring.annotation.MapperScans;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.EnableAspectJAutoProxy;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-
-import java.util.Objects;
 
 /**
  * Hello world!
@@ -19,7 +15,7 @@ import java.util.Objects;
 @SpringBootApplication
 @Controller
 @Slf4j
-@MapperScan({"com.com.wzy.dao"})
+@MapperScan({"com.com.com.com.wzy.dao"})
 public class RedisApp
 {
 

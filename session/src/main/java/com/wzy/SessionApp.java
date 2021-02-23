@@ -13,7 +13,7 @@ import org.springframework.stereotype.Controller;
 @SpringBootApplication
 @Controller
 @Slf4j
-@MapperScan({"com.com.wzy"})
+@MapperScan({"com.com.com.com.wzy"})
 public class SessionApp {
 
     public static void main( String[] args )

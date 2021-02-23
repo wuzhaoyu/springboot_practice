@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
  * 类修改者	创建日期2020/12/21
  * 修改说明
  *
- * @author wzy
+ * @author com.com.wzy
  * @version V1.0
  * @description 说明：
  **/
