@@ -30,8 +30,6 @@ public class ProductController {
     @Reference
     private UserService userService;
 
-
-
     /**
      * 添加完 返回总共消费
      * @param a
@@ -41,19 +39,17 @@ public class ProductController {
     public String getCost(int a){
         // 设置服务实现对象
         UserVO user = userService.getUser(a);
-        Future<UserVO> future = RpcContext.getContext().getFuture();
+        /*Future<UserVO> future = RpcContext.getContext().getFuture();
         UserVO user1 = userService.getUser(a);
-        Future<UserVO> future1 = RpcContext.getContext().getFuture();
+        Future<UserVO> future1 = RpcContext.getContext().getFuture();*/
         try {
             long start = System.currentTimeMillis();
-            System.out.println(future.get());
-            System.out.println(future1.get());
+          /*  System.out.println(future.get());
+            System.out.println(future1.get());*/
             System.out.println(System.currentTimeMillis() - start );
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        } catch (ExecutionException e) {
+        } catch (Exception e) {
             e.printStackTrace();
         }
-        return "获取 ："+ future1;
+        return "获取 ："+ user;
     }
 }

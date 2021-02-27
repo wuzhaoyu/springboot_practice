@@ -8,12 +8,12 @@ dubbo:
     id: service-consumer
     address: zookeeper://127.0.0.1:2181
     # 读者请换成自己的zookeeperip
-    check: false
+    check: true
   monitor:
     protocol: register
+  # 检测无效
   consumer:
-    check:  false
-    timeout: 3000
+    check:  true
 
 server:
   port: 8062

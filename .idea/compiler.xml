@@ -10,9 +10,9 @@
         <module name="dubbo" />
         <module name="shiro" />
         <module name="service-consumer" />
-        <module name="Servlet" />
-        <module name="proxy" />
         <module name="service-api" />
+        <module name="proxy" />
+        <module name="Servlet" />
         <module name="service-provider" />
         <module name="Session" />
       </profile>
